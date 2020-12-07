@@ -1,0 +1,44 @@
+.react-tabs {
+  &__img {
+    height: 370px;
+
+    &:hover div,
+    &:hover span {
+      opacity: 0;
+    }
+
+    & div {
+      background: #606060 0% 0% no-repeat padding-box;
+      mix-blend-mode: saturation;
+      opacity: 1;
+      transition: all 0.1s;
+    }
+    & span {
+      opacity: 1;
+      transition: all 0.1s;
+    }
+    & h3 {
+      opacity: 0;
+      transition: all 0.1s;
+    }
+    &:hover h3 {
+        opacity: 1;
+    }
+  }
+  &__tab {
+    padding: 0.5rem 1.25rem;
+    &--selected {
+      color: #f1b95b !important;
+      border: none;
+      outline: none !important;
+      outline-width: 0 !important;
+      box-shadow: none;
+
+      &:focus {
+        outline: none !important;
+        outline-width: 0 !important;
+        box-shadow: none;
+      }
+    }
+  }
+}
