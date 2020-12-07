@@ -25,10 +25,10 @@ const Banner = () => {
           fluid={data.image1.childImageSharp.fluid}
           className="absolute top-0 left-0 z-50 h-56 w-full flex flex-col justify-center items-center"
         >
-          <p className="text-center block w-1/2 mx-auto text-5xl font-bold text-white">
+          <p className="text-center block w-1/2 mx-auto text-xl lg:text-5xl font-bold text-white">
             Lorem ipsum dolor sit
           </p>
-          <p className="text-center block w-1/2 mx-auto text-6xl font-bold text-white">
+          <p className="text-center block w-1/2 mx-auto text-3xl lg:text-6xl font-bold text-white">
             amet, consetetur
           </p>
         </BackgroundImage>

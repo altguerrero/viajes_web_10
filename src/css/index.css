@@ -1,14 +1,17 @@
 @font-face {
-    font-family: 'Segoe';
-    src: url('./fonts/Segoe_UI.ttf') format('ttf');
-    src: url('./fonts/Segoe_UI_Bold.ttf') format('ttf');
-  }
-  
+  font-family: "Segoe";
+  src: url("./fonts/Segoe_UI.ttf") format("ttf");
+  src: url("./fonts/Segoe_UI_Bold.ttf") format("ttf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html {
-    font-family: 'Segoe', sans-serif !important;
+  font-family: "Segoe", sans-serif !important;
 }

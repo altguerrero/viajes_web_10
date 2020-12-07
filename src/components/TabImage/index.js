@@ -60,7 +60,7 @@ const TabImage = () => {
   `);
   return (
     <Tabs>
-      <TabList className="border-none flex justify-center text-lg font-semibold text-secondary-normal">
+      <TabList className="border-none flex flex-wrap justify-center text-base sm:text-lg font-semibold text-secondary-normal">
         <Tab>Colombia</Tab>
         <Tab>Chile</Tab>
         <Tab>Argentina</Tab>
@@ -70,13 +70,13 @@ const TabImage = () => {
       </TabList>
 
       <TabPanel>
-        <div className="grid grid-cols-4 mt-8 mb-12">
+        <div className="px-4 grid grid-cols-2 md:grid-cols-4 mt-8 mb-12">
           <BackgroundImage
             fluid={data.image1.childImageSharp.fluid}
             className="react-tabs__img w-full"
           >
             <div className="absolute w-full h-full top-0 left-0"></div>
-            <span className="absolute text-center uppercase w-full h-full top-0 bottom-0 left-0 z-20 flex justify-end pr-12 items-center text-6xl font-semibold text-primary-light">
+            <span className="absolute text-center uppercase w-full h-full top-0 bottom-0 left-0 z-20 flex justify-end pr-12 items-center text-4xl sm:text-5xl md:text-4xl lg:text-6xl font-semibold text-primary-light">
               |Bo <br /> go <br /> tá|
             </span>
             <h3 className="text-white absolute w-full h-full top-0 left-0 flex justify-center items-center uppercase  text-2xl">
@@ -89,7 +89,7 @@ const TabImage = () => {
             className="react-tabs__img w-full"
           >
             <div className="absolute w-full h-full top-0 left-0"></div>
-            <span className="absolute text-center uppercase w-full h-full top-0 bottom-0 left-0 z-20 flex justify-end pr-12 items-center text-6xl font-semibold text-primary-light">
+            <span className="absolute text-center uppercase w-full h-full top-0 bottom-0 left-0 z-20 flex justify-end pr-12 items-center text-4xl sm:text-5xl md:text-4xl lg:text-6xl font-semibold text-primary-light">
               |Ca <br /> li|
             </span>
             <h3 className="text-white absolute w-full h-full top-0 left-0 flex justify-center items-center uppercase  text-2xl">
@@ -102,7 +102,7 @@ const TabImage = () => {
             className="react-tabs__img w-full"
           >
             <div className="absolute w-full h-full top-0 left-0"></div>
-            <span className="absolute text-center uppercase w-full h-full top-0 bottom-0 left-0 z-20 flex justify-end pr-12 items-center text-6xl font-semibold text-primary-light">
+            <span className="absolute text-center uppercase w-full h-full top-0 bottom-0 left-0 z-20 flex justify-end pr-12 items-center text-4xl sm:text-5xl md:text-4xl lg:text-6xl font-semibold text-primary-light">
               |Car <br /> ta <br /> ge <br /> na|
             </span>
             <h3 className="text-white absolute w-full h-full top-0 left-0 flex justify-center items-center uppercase  text-2xl">
@@ -115,7 +115,7 @@ const TabImage = () => {
             className="react-tabs__img w-full"
           >
             <div className="absolute w-full h-full top-0 left-0"></div>
-            <span className="absolute text-center uppercase w-full h-full top-0 bottom-0 left-0 z-20 flex justify-end pr-12 items-center text-6xl font-semibold text-primary-light">
+            <span className="absolute text-center uppercase w-full h-full top-0 bottom-0 left-0 z-20 flex justify-end pr-12 items-center text-4xl sm:text-5xl md:text-4xl lg:text-6xl font-semibold text-primary-light">
               |Me <br /> de <br /> llin|
             </span>
             <h3 className="text-white absolute w-full h-full top-0 left-0 flex justify-center items-center uppercase  text-2xl">
