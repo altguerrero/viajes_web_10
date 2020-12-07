@@ -34,18 +34,21 @@ const Contacto = () => {
               type="text"
               placeHolder="Nombre Completo"
               className="text-base sm:text-lg border border-secondary-normal px-3 py-1 rounded-2xl block w-full mb-4 focus:outline-none  focus:border-primary-light"
+              required
             ></input>
             <input
               type="email"
               placeHolder="Email"
               className="text-base sm:text-lg border border-secondary-normal px-3 py-1 rounded-2xl block w-full mb-4 focus:outline-none  focus:border-primary-light"
+              required
             ></input>
             <input
               type="tel"
               placeHolder="Número de contacto"
               className="text-base sm:text-lg border border-secondary-normal px-3 py-1 rounded-2xl block w-full mb-4 focus:outline-none  focus:border-primary-light"
+              required
             ></input>
-            <button className="inline-block w-32 ml-auto mt-4">
+            <button className="inline-block w-32 ml-auto mt-4 focus:outline-none ">
               <span className="block leading-5 sm:leading-6  text-lg sm:text-xl text-secondary-light font-semibold">
                 Completa ti
               </span>

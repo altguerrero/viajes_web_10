@@ -46,7 +46,7 @@ const Experiencias = () => {
   `);
   return (
     <>
-      <section className="container mt-12">
+      <section id="planes" className="container mt-12">
         <div className="h-24 w-1 bg-primary-light mx-auto mb-12"></div>
         <div className="w-2/3 mx-auto mb-12">
           <div className="text-center mb-12">
@@ -102,7 +102,7 @@ const Experiencias = () => {
               className="experiencia__img w-full h-56 overflow-hidden rounded"
             ></BackgroundImage>
           </div>
-          <div  className="w-2/3 text-right w-2/3 ml-auto lg:ml-0 mr-12 lg:mr-56 mb-8">
+          <div className="w-2/3 text-right w-2/3 ml-auto lg:ml-0 mr-12 lg:mr-56 mb-8">
             <div className="mb-6 lg:mb-12">
               <h2 className="leading-5 sm:leading-6 text-base sm:text-lg text-secondary-light font-semibold">
                 Plan

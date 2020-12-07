@@ -21,7 +21,7 @@ const Hero = () => {
     }
   `);
   return (
-    <div className="container hero pt-16 relative md:h-screen">
+    <div id="inicio" className="container hero pt-16 relative md:h-screen">
       <div className="hero__subcontainer md:grid md:grid-cols-2 md:gap-8">
         <div className="w-1/2 md:w-2/4 lg:w-1/2 flex flex-col justify-center mx-auto pt-12 md:pt-16 pb-16 lg:pb-32">
           <p className="text-sm sm:text-lg text-secondary-normal mb-4">

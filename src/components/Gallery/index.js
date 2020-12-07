@@ -4,7 +4,7 @@ import TabImage from "../TabImage";
 // markup
 const Gallery = () => {
   return (
-    <section id="planes" className="container mt-12">
+    <section id="destinos" className="container mt-12">
       <div className="h-24 w-1 bg-primary-light mx-auto mb-12"></div>
       <div className="w-2/3 mx-auto mb-12">
         <div className="text-left mb-6 sm:mb-8 md:mb-12">
